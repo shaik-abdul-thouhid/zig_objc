@@ -9,5 +9,5 @@ pub const AffineTransform = @import("./affine_transform.zig");
 pub const ErrorType = Errors.ErrorCodeType;
 
 test {
-    _ = testing.refAllDecls(AffineTransform);
+    _ = AffineTransform;
 }
